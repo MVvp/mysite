@@ -2,8 +2,14 @@ from django.db import models
 
 # Create your models here.
 
+<<<<<<< HEAD
 class Rate(models.Model):
     grade = models.models.IntegerField()
+=======
+
+class Menber(models.Model):
+    name = models.models.CharField(max_length=50)
+>>>>>>> 33de6f63026ca2292dd096bd39dea55b6ed51f3b
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
